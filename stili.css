@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body{
+    color: #8A2BE2;
+    font-size: 23px;
+    font-family: sans-serif;
+    background-color: silver;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+ul > li {
+    display: inline-block;
+}
+a:link {
+    background-color: #FF69B4;
+    border-radius: 10%;
+    text-decoration: none;
+}
+a:visited {
+    background-color: #F08080;
+    border-radius: 11%;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #475e88;
+    border-radius: 10%;
+    text-decoration: none;
+}
+a:active {
+    background-color: #CD5C5C;
+    border-radius: 10%;
+    text-decoration: none;
+}
+#Pravokotnik{
+    background-color: #CD5C5C;
+    text-align: center;
+}
+aside{
+    width: 60%;
+    height: 590px;
+    margin: auto;
+    padding: 8px 8px;
+    background-color: #BA55D3;
+    float: center;
+    text-align-last: center;
+}
+article{
+    text-align-last: center;
+    float: center;
+    width: 60%;
+    height: 590px;
+    margin: auto;
+    padding: 30px 5px 5px 10px;
+    background-color: #BA55D3;
+    margin-top: 5px;
+}
+footer{
+    background-color: #BA55D3;
+    text-align: center;
+    clear: left;
+    width: 60%;
+    padding: 1px 0;
+    margin: auto;
+    margin-top: 5px;
+}
+nav{
+   margin: auto;
+   width: 50%;
+   border: 3px solid green;
+   padding: 10px;
+}
+header{
+  width: 60%;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color:	#BA55D3;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.Galerija {
+  text-align-last: center;
+    float: center;
+    width: 80%;
+    height: 590px;
+    margin: auto;
+    padding: 30px 5px 5px 10px;
+    background-color: #BA55D3;
+    margin-top: 5px;
+}
