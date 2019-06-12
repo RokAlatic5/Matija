@@ -45,12 +45,10 @@ aside{
     margin: auto;
     padding: 8px 8px;
     background-color: #BA55D3;
-    float: center;
     text-align-last: center;
 }
 article{
     text-align-last: center;
-    float: center;
     width: 60%;
     height: 590px;
     margin: auto;
@@ -158,11 +156,22 @@ header{
 }
 .Galerija {
   text-align-last: center;
-    float: center;
     width: 80%;
     height: 590px;
     margin: auto;
     padding: 30px 5px 5px 10px;
     background-color: #BA55D3;
     margin-top: 5px;
+}
+.SlikeIndex {
+  align-self: center;
+}
+.SlikeIndex2 {
+  align-self: center;
+}
+b {
+  text-decoration-color: coral;
+}
+.Prosti {
+  align-self: center;
 }
